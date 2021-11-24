@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #7fffd3;
+}
+
+.container {
+    display: flex;
+    width: 1000px;
+    margin: 200px auto;
+    flex-wrap: wrap;
+}
+
+.cella {
+    height: 100px;
+    width: 100px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
